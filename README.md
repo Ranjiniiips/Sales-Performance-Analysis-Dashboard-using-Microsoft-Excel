@@ -166,7 +166,7 @@ Rows: Region
 Values: Sum of Total_Sales
 
 Used to compare regional performance.
-
+![Sales by region](Sales by Region.png)
 **Sales by Product**
 
 Rows: Product
