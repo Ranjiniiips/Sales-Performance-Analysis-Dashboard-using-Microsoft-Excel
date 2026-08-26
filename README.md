@@ -214,6 +214,7 @@ Used to visualize sales over time.
 🎯 10. **Sales KPIs**
 
 The dashboard includes important sales KPIs.
+QC Calculations.png
 
 **Total Sales**
 =SUM('Sales dataset'!I2:I22)
