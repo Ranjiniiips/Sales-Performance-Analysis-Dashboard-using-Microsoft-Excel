@@ -158,6 +158,7 @@ Rows: Salesperson
 Values: Sum of Total_Sales
 
 Used to identify salesperson performance.
+![Sales by person](Sales by Person.png)
 
 **Sales by Region**
 
@@ -170,7 +171,8 @@ Used to compare regional performance.
 
 Rows: Product
 Values: Sum of Total_Sales
-SC Quality by produc .png
+![Sales by product output](SC Quality by produc .png)
+
 Used to identify products generating the highest sales.
 
 **Quantity by Product**
