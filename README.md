@@ -20,7 +20,9 @@ The project covers the complete data-analysis workflow, starting from raw sales 
 9. Use slicers for filtering and analysis.
 10. Present business insights in an easy-to-understand format.
 
-![Sales Quality by product](SC Quality by produc .png)
+
+ SC Quality by produc .png
+
 
 
 **Dataset**
@@ -264,32 +266,26 @@ Product
 
 The Excel workbook is organized approximately as:
 Sales Analysis Workbook
-│
-├── Sales dataset
 
-│
-├── Pivot - Salesperson
+**Sales dataset**
 
-│
-├── Pivot - Region
+**Pivot - Salesperson**
 
-│
-├── Pivot - Product
+**Pivot - Region**
 
-│
-├── Pivot - Quantity
+**Pivot - Product**
 
-│
-├── Detail / Calculations
+**Pivot - Quantity**
 
-│
-└── Dashboard
+**Detail / Calculations**
+
+**Dashboard**
 
 **Tools & Skills Used**
 
-Tool:
+**Tool:**
 
-****Microsoft Excel**
+**Microsoft Excel**
 **
 **Data Analysis:**
 
