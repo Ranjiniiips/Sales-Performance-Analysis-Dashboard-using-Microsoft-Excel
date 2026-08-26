@@ -237,12 +237,13 @@ Category
 Product
 
 Slicers allow the user to select a particular value and filter the PivotTable analysis.
-QC Slicers.png
+ ![Slicers Output](QC Slicers.png)
 
 **Dashboard**
 
 A separate Dashboard worksheet was created to present the main results visually.
-QC Dashboard.png
+![Dashboard Output](QC Dashboard.png)
+
 
 **The dashboard contains:**
 
