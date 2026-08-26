@@ -19,59 +19,85 @@ The project covers the complete data-analysis workflow, starting from raw sales 
 8. Create an interactive dashboard.
 9. Use slicers for filtering and analysis.
 10. Present business insights in an easy-to-understand format.
+!**[Sales Dashboard]**(SC Quality by produc.png)
+
 **Dataset**
+
 The dataset contains the following columns:
+
 | Column        | Description                                 |
 | ------------- | ------------------------------------------- |
-| `Order_ID`    | Unique identification number for each order |
-| `Date`        | Date of the sale                            |
-| `Salesperson` | Person responsible for the sale             |
-| `Product`     | Product sold                                |
-| `Category`    | Product category                            |
-| `Region`      | Sales region                                |
-| `Quantity`    | Number of units sold                        |
-| `Unit_Price`  | Price of one unit                           |
-| `Total_Sales` | Total value of the sale                     |
+| `Order_ID`    | Unique identification number for each order
+|
+| `Date`        | Date of the sale        
+|
+| `Salesperson` | Person responsible for the sale  
+|
+| `Product`     | Product sold 
+|
+| `Category`    | Product category 
+|
+| `Region`      | Sales region 
+|
+| `Quantity`    | Number of units sold 
+|
+| `Unit_Price`  | Price of one unit 
+|
+| `Total_Sales` | Total value of the sale   
+|
 
 **Total Sales Calculation**
 The project calculates:
 =Quantity*Unit_Price
 
 **Data Cleaning**
+
 The raw data was checked and cleaned before analysis.
+
 Duplicate removal
 Used:
 Data → Remove Duplicates
 This prevents the same order from being counted multiple times.
-Missing values
+
+**Missing values**
 Used:=COUNTBLANK(C2:C22)
 to identify empty cells.
-Removing extra spaces
+
+**Removing extra spaces**
 Used:=TRIM(C2)
 to remove unnecessary spaces from text.
-Standardizing text
+
+**Standardizing text**
+
 Used:=PROPER(C2)
 to maintain consistent capitalization.
-Other functions practiced:
+
+**Other functions practiced**:
 =UPPER(C2)
 =LOWER(C2)
-Number validation
+
+**Number validation**
 Used:
 =ISNUMBER(H2)
 to check whether values are stored as numbers.
+
 Converting text to numbers
 =VALUE(H2)
-Date Functions
+
+**Date Functions**
 Date data was checked and analyzed
 =YEAR(B2)
 =MONTH(B2)
 =DAY(B2)
-Number & Currency Formatting
+
+**Number & Currency Formatting**
 Unit_Price and Total_Sales were formatted as Indian currency.
+
 Example custom format:
 ₹#,##0
-Excel Formulas Used
-Basic functions:
+
+**Excel Formulas Used
+Basic functions:**
 =SUM(I2:I22)
 =AVERAGE(I2:I22)
 =COUNT(I2:I22)
@@ -79,29 +105,43 @@ Basic functions:
 =MIN(I2:I22)
 =MAX(I2:I22)
 These were used to calculate important sales statistics.
-Logical Functions
+
+**Logical Functions**
+
 The project also practiced:
+
 IF
+
 =IF(I2>=50000,"High","Low")
+
 IFS
+
 =IFS(
 I2>=75000,"Excellent",
 I2>=50000,"Good",
 I2>=25000,"Average",
 I2<25000,"Low"
 )
+
 AND
+
 Used to check whether multiple conditions are true.
+
 OR
+
 Used when any one of multiple conditions can be true.
 These functions were used to create sales performance categories.
-Conditional Functions
+
+**Conditional Functions**
+
 The project includes:
 =COUNTIF()
 =SUMIF()
 =COUNTIFS()
 =SUMIFS()
-Lookup Functions
+
+**Lookup Functions**
+
 The project also covered:
 XLOOKUP
 VLOOKUP
@@ -138,6 +178,7 @@ Used to identify products generating the highest sales.
 Rows: Product
 Values: Sum of Quantity
 Used to understand product demand.
+
 **Charts**
 
 Charts were created from the PivotTables.
@@ -170,15 +211,19 @@ Used to visualize sales over time.
 
 The dashboard includes important sales KPIs.
 
-Total Sales
+**Total Sales**
 =SUM('Sales dataset'!I2:I22)
-Total Orders
+
+**Total Orders**
 =COUNTA('Sales dataset'!A2:A22)
-Total Quantity
+
+**Total Quantity**
 =SUM('Sales dataset'!G2:G22)
-Average Sales
+
+**Average Sales**
 =AVERAGE('Sales dataset'!I2:I22)
-Slicers
+
+**Slicers**
 
 Slicers were added to make the analysis interactive.
 
@@ -191,7 +236,7 @@ Product
 
 Slicers allow the user to select a particular value and filter the PivotTable analysis.
 
-📊 12. **Dashboard**
+**Dashboard**
 
 A separate Dashboard worksheet was created to present the main results visually.
 
@@ -212,6 +257,7 @@ Salesperson
 Region
 Category
 Product
+
 **Workbook Structure**
 
 The Excel workbook is organized approximately as:
