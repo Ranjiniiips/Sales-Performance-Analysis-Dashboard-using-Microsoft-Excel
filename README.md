@@ -244,6 +244,7 @@ QC Slicers.png
 **Dashboard**
 
 A separate Dashboard worksheet was created to present the main results visually.
+QC Dashboard.png
 
 **The dashboard contains:**
 
