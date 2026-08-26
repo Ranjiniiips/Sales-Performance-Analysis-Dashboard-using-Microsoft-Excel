@@ -285,7 +285,7 @@ Sales Analysis Workbook
 **Tool:**
 
 **Microsoft Excel**
-**
+
 **Data Analysis:**
 
 Data Cleaning
@@ -327,8 +327,9 @@ DATE
 TODAY
 EOMONTH
 DAYS
-**
-**Visualization:****
+
+
+**Visualization:**
 
 Column Charts
 Bar Charts
