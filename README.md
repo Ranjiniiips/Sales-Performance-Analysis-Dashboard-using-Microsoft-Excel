@@ -20,7 +20,7 @@ The project covers the complete data-analysis workflow, starting from raw sales 
 9. Use slicers for filtering and analysis.
 10. Present business insights in an easy-to-understand format.
 
-![Sales Dashboard](SC Quality by produc.png)
+![Sales Quality by produc] (SC Quality by produc .png)
 
 
 **Dataset**
