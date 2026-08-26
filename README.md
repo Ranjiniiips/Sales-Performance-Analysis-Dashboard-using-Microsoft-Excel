@@ -178,6 +178,7 @@ Used to identify products generating the highest sales.
 Rows: Product
 Values: Sum of Quantity
 Used to understand product demand.
+![Quantity by product output](Quantity by product.png)
 
 **Charts**
 
