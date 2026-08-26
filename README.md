@@ -1,22 +1,25 @@
 **Project Title**
-Sales Performance Analysis Dashboard using Microsoft Excel
-Project Overview
+
+**Sales Performance Analysis Dashboard using Microsoft Excel**
+
+**Project Overview**
 This project analyzes a sales dataset using Microsoft Excel to understand sales performance, product performance, salesperson performance, regional sales, and overall business trends.
 The project covers the complete data-analysis workflow, starting from raw sales data and data cleaning and ending with an interactive sales dashboard using PivotTables, charts, KPI cards, and slicers.
+
 **Project Objectives**
 **The main objectives are to:**
 
-Clean and prepare raw sales data.
-Calculate total sales from quantity and unit price.
-Analyze sales performance using Excel formulas.
-Create sales KPIs.
-Summarize data using PivotTables.
-Compare salespeople, products, categories, and regions.
-Visualize sales performance using charts.
-Create an interactive dashboard.
-Use slicers for filtering and analysis.
-Present business insights in an easy-to-understand format.
-Dataset
+1. Clean and prepare raw sales data.
+2. Calculate total sales from quantity and unit price.
+3. Analyze sales performance using Excel formulas.
+4. Create sales KPIs.
+5. Summarize data using PivotTables.
+6. Compare salespeople, products, categories, and regions.
+7. Visualize sales performance using charts.
+8. Create an interactive dashboard.
+9. Use slicers for filtering and analysis.
+10. Present business insights in an easy-to-understand format.
+**Dataset**
 The dataset contains the following columns:
 | Column        | Description                                 |
 | ------------- | ------------------------------------------- |
@@ -29,10 +32,12 @@ The dataset contains the following columns:
 | `Quantity`    | Number of units sold                        |
 | `Unit_Price`  | Price of one unit                           |
 | `Total_Sales` | Total value of the sale                     |
-Total Sales Calculation
+
+**Total Sales Calculation**
 The project calculates:
 =Quantity*Unit_Price
-Data Cleaning
+
+**Data Cleaning**
 The raw data was checked and cleaned before analysis.
 Duplicate removal
 Used:
