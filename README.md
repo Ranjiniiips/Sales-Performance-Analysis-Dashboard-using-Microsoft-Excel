@@ -210,6 +210,7 @@ Used to visualize sales over time.
  **Sales KPIs**
 
 The dashboard includes important sales KPIs.
+
 QC Calculations.png
 
 **Total Sales**
