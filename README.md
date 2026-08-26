@@ -123,11 +123,11 @@ I2>=25000,"Average",
 I2<25000,"Low"
 )
 
-AND
+**AND**
 
 Used to check whether multiple conditions are true.
 
-OR
+**OR**
 
 Used when any one of multiple conditions can be true.
 These functions were used to create sales performance categories.
