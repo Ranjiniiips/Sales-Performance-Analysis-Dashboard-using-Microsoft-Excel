@@ -21,10 +21,6 @@ The project covers the complete data-analysis workflow, starting from raw sales 
 10. Present business insights in an easy-to-understand format.
 
 
- SC Quality by produc .png
-
-
-
 **Dataset**
 
 The dataset contains the following columns:
@@ -174,7 +170,7 @@ Used to compare regional performance.
 
 Rows: Product
 Values: Sum of Total_Sales
-
+SC Quality by produc .png
 Used to identify products generating the highest sales.
 
 **Quantity by Product**
@@ -211,7 +207,7 @@ Used to compare product sales.
 
 Used to visualize sales over time.
 
-🎯 10. **Sales KPIs**
+ **Sales KPIs**
 
 The dashboard includes important sales KPIs.
 QC Calculations.png
