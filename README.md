@@ -239,6 +239,7 @@ Category
 Product
 
 Slicers allow the user to select a particular value and filter the PivotTable analysis.
+QC Slicers.png
 
 **Dashboard**
 
