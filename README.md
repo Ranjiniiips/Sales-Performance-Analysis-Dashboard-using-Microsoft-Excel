@@ -94,7 +94,7 @@ Date data was checked and analyzed
 Unit_Price and Total_Sales were formatted as Indian currency.
 
 Example custom format:
-₹#,##0
+**₹#,##0**
 
 **Excel Formulas Used
 Basic functions:**
@@ -110,11 +110,11 @@ These were used to calculate important sales statistics.
 
 The project also practiced:
 
-IF
+**IF**
 
 =IF(I2>=50000,"High","Low")
 
-IFS
+**IFS**
 
 =IFS(
 I2>=75000,"Excellent",
@@ -287,9 +287,7 @@ Sales Analysis Workbook
 
 **Tools & Skills Used**
 
-**Tool:**
-
-**Microsoft Excel**
+**Tool: Microsoft Excel**
 
 **Data Analysis:**
 
@@ -302,41 +300,41 @@ PivotTables
 
 **Excel Functions:**
 
-SUM
-AVERAGE
-COUNT
-COUNTA
-MIN
-MAX
-IF
-IFS
-AND
-OR
-COUNTIF
-SUMIF
-COUNTIFS
-SUMIFS
-XLOOKUP
-VLOOKUP
-INDEX-MATCH
-TRIM
-PROPER
-UPPER
-LOWER
-VALUE
-TEXT
-YEAR
-MONTH
-DAY
-DATE
-TODAY
-EOMONTH
-DAYS
+SUM,
+AVERAGE,
+COUNT,
+COUNTA,
+MIN,
+MAX,
+IF,
+IFS,
+AND,
+OR,
+COUNTIF,
+SUMIF,
+COUNTIFS,
+SUMIFS,
+XLOOKUP,
+VLOOKUP,
+INDEX-MATCH,
+TRIM,
+PROPER,
+UPPER,
+LOWER,
+VALUE,
+TEXT,
+YEAR,
+MONTH,
+DAY,
+DATE,
+TODAY,
+EOMONTH,
+DAYS.
 
 
 **Visualization:**
 
-Column Charts
+**Column Charts
 Bar Charts
 Pie/Donut Charts
 Line Charts
