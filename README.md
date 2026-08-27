@@ -98,12 +98,12 @@ Example custom format:
 
 **Excel Formulas Used
 Basic functions:**
-=SUM(I2:I22)
-=AVERAGE(I2:I22)
-=COUNT(I2:I22)
-=COUNTA(A2:A22)
-=MIN(I2:I22)
-=MAX(I2:I22)
+=SUM(I2:I22),,
+=AVERAGE(I2:I22),,
+=COUNT(I2:I22),,
+=COUNTA(A2:A22),,
+=MIN(I2:I22),,
+=MAX(I2:I22).
 These were used to calculate important sales statistics.
 
 **Logical Functions**
@@ -334,12 +334,12 @@ DAYS.
 
 **Visualization:**
 
-**Column Charts
-Bar Charts
-Pie/Donut Charts
-Line Charts
-KPI Cards
-Slicers
-Interactive Dashboard
+**Column Charts,
+Bar Charts,
+Pie/Donut Charts,
+Line Charts,
+KPI Cards,
+Slicers,
+Interactive Dashboard.**
 
 
